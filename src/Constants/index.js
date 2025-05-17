@@ -14,11 +14,11 @@ Let's connect!`;
 
 export const EXPERIENCES = [
   {
-    year: "2025 Feb - Present",
-    role: "Web developer",
-    company: "Code Alpha",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Html", "Node.js"],
+    year: "",
+    role: "No experience",
+    company: "",
+    description: `Trying to land an internship`,
+    technologies: ["", "", "", ""],
   },
   
 ];
@@ -29,7 +29,7 @@ export const CERTIFICATIONS = [
     issuer: "Cisco",
   },
   {
-    title: "Programming Essentials in JavaScript",
+    title: "Programming Essentials in Python",
     issuer: "Cisco",
   },
   {
@@ -48,6 +48,10 @@ export const CERTIFICATIONS = [
     title: "#BasecampHunt Program",
     issuer: "Basecamp Business Incubator, Namibia",
   },
+  {
+    title: " Electronic ArtsSoftware Engineering virtual experience program on Forage - April 2025",
+    issuer: "Forage",
+  },
 ];
 
 export const professions = [
@@ -61,32 +65,40 @@ export const professions = [
 
 export const PROJECTS = [
   {
+    name: "OfflinePay Mobile Payment App",
+    image: "https://img.freepik.com/free-psd/digital-wallet-mockup_53876-91308.jpg",
+    description: `Developed a peer-to-peer payment solution for low-connectivity environments using Bluetooth/NFC and QR codes. Implemented secure offline transaction queuing with automatic sync when online. Features include biometric auth and encrypted local storage.`,
+    technologies: ["React Native", "TypeScript", "Jest", "Expo", "Bluetooth/NFC", "SQLite"],
+    link: "https://github.com/ZeroTR-2003",
+    date: "Mar 2025",
+  },
+  {
+    name: "Digital Identity Management System",
+    image: "https://img.freepik.com/free-vector/digital-identity-concept-illustration_114360-2416.jpg",
+    description: `Full-stack identity verification platform with Spring Boot backend and React frontend. Implemented JWT authentication, GDPR-compliant consent tracking, and role-based access control. Supports QR-based identity verification and admin dashboards.`,
+    technologies: ["React", "Spring Boot", "Java", "JWT", "PostgreSQL", "Docker"],
+    link: "https://github.com/ZeroTR-2003",
+    date: "Mar 2025",
+  },
+  {
     name: "Construction Web Application",
-    image: project1,
+    image: "https://img.freepik.com/free-vector/construction-tools-isometric-set_1284-18018.jpg", 
     description: `Developed an interactive and responsive user interface ensuring a seamless user experience across devices. Implemented a scalable backend with Node.js to handle API requests and combined JavaScript and Web3Forms for secure and efficient form submission and data handling.`,
     technologies: ["HTML", "JavaScript", "CSS", "React", "Node.js", "Web3Forms"],
-    link: "https://example-construction-app.com", // Replace with the actual project link
-    date: "Dec 2024",
+    link: "https://github.com/ZeroTR-2003",
+    date: "Dec 2023",
   },
   {
     name: "Interactive Campus Navigation App",
-    image: project2 ,
+    image: "https://img.freepik.com/free-vector/campus-life-concept-illustration_114360-10025.jpg",
     description: `Developed a highly customizable app interface allowing users to filter specific venues, ensuring intuitive and accurate navigation on campus.`,
     technologies: ["Flutter", "Dart"],
-    link: "https://example-campus-app.com", // Replace with the actual project link
+    link: "https://github.com/ZeroTR-2003",
     date: "Nov 2023",
-  },
-  {
-    name: "Car Rental System Management",
-    image: project3 ,
-    description: `Implemented a robust SQL database to manage transactions, client details, and employee records. Introduced C# for backend functionalities such as bookings, customer registration, and availability tracking.`,
-    technologies: ["SQL", "C#"],
-    link: "https://example-car-rental.com", // Replace with the actual project link
-    date: "Aug 2022",
   },
 ];
 export const CONTACT = {
-  email: "thurstonsomseb@gmail.com",
+  email: "thurstonjs11@gmail.com",
   phone: "+264-81-2583515",
   location: "Windhoek, Namibia",
 }

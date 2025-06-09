@@ -55,8 +55,8 @@ export const CERTIFICATIONS = [
 ];
 
 export const professions = [
-  "Full Stack Developer",
-  "Software Engineer",
+  "Software Developer",
+  "IT Support",
   "Ethical Hacker",
   "Database Administrator",
   "UX/UI Designer",

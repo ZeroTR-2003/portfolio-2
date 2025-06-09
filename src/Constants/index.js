@@ -2,7 +2,7 @@ import project1 from "../assets/projects/project-1.jpg"
 import project2 from "../assets/projects/project-2.jpg"
 import project3 from "../assets/projects/project-3.jpg"
 
-export const HERO_CONTENT = `I'm a passionate computer science major, I engineer future-ready Web & mobile experiences, build scalable, secure & high-performance solutions ,and transform ideas into powerful digital experiences `;
+export const HERO_CONTENT = `I'm a passionate computer science major, I develop future-ready Web & mobile experiences, build scalable, secure & high-performance solutions ,and transform ideas into powerful digital experiences `;
 
 export const ABOUT_TEXT = `I am a passionate full-stack developer with a strong foundation in building secure, scalable, and high-performance web applications. With project-based experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies including Node.js, MySQL, PostgreSQL, and MongoDB. /n My expertise also extends to cybersecurity, where I focus on ethical hacking practices to identify vulnerabilities and strengthen digital security via WireShack.
 
@@ -27,31 +27,38 @@ export const CERTIFICATIONS = [
   {
     title: "Programming Essentials in JavaScript",
     issuer: "Cisco",
+    link: "https://heyzine.com/flip-book/178e448a4e.html"
   },
   {
     title: "Programming Essentials in Python",
     issuer: "Cisco",
+    link: "https://heyzine.com/flip-book/82a11a0a1c.html"
   },
   {
     title: "Microsoft IT Support Specialist Certificate",
     issuer: "Coursera",
+    link: "https://heyzine.com/flip-book/5e5178cc51.html"
   },
   {
     title: "Microsoft UX Design",
     issuer: "Coursera",
+    link: "https://heyzine.com/flip-book/ab6508ae80.html"
   },
   {
-    title: "Microsoft Cybersecurity Analyst Professional Certificate",
-    issuer: "Coursera",
+    title: "Junior Cybersecurity Analyst",
+    issuer: "Cisco",
+    link: "https://heyzine.com/flip-book/1b68cfdfc9.html"
   },
   {
     title: "#BasecampHunt Program",
     issuer: "Basecamp Business Incubator, Namibia",
+    link: "https://heyzine.com/flip-book/15ddfbc8b7.html"
   },
   {
-    title: " Electronic ArtsSoftware Engineering virtual experience program on Forage - April 2025",
+    title: "Electronic Arts Software Engineering virtual experience program on Forage - April 2025",
     issuer: "Forage",
-  },
+    link: "https://www.theforage.com/virtual-internships/prototype/6rNjyzrLJGCi6z9rq/Electronic-Arts-Software-Engineering"
+  }
 ];
 
 export const professions = [

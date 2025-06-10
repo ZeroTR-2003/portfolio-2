@@ -1,37 +1,53 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Navbar from './Components/Navbar'
-import Hero from './Components/Hero'
-import About from './Components/About'
-import Technologies from './Components/Technologies'
-import Experience from './Components/Experience'
-import Projects from './Components/Projects'
-import Certifications from './Components/Certifications'
-import Contact from './Components/Contact'
+import React from 'react'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About from './components/About'
+import Projects from './components/Projects'
+import Certifications from './components/Certifications'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+import PathDraw from './components/PathDraw'
 
-const App=()=> {
- 
-
+const App = () => {
   return (
-    <div className='overflow-hidden text-neutral-300 antialiased slec bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,300,198,0.1),rgba(255,255,255,0))]' >
-      <div className='fixed top-0 -z-10 h-full w-full '>
-      <div class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
-      </div>
-      <div className='container mx-auto px-8'>
-       <Navbar/>
-       <Hero/>
-       <About/>
-       <Technologies/>
-       <Experience/>
-       <Projects/>
-       <Certifications/>
-       <Contact/>
-      </div>
-      
+    <div className="bg-neutral-900 text-white min-h-screen">
+      {/* Site navigation */}
+      <Navbar />
+
+      {/* Hero / intro */}
+      <Hero />
+
+      {/* About section */}
+      <section id="about" className="py-20 px-4">
+        <About />
+      </section>
+
+      {/* ——— SVG Path‑Draw Divider ——— */}
+      <PathDraw
+        svgPath="M0,75 C150,200 350,-50 500,75 650,200 850,-50 1000,75"
+        height={150}
+        strokeColor="#3b82f6"
+        strokeWidth={3}
+      />
+
+      {/* Projects section */}
+      <section id="projects" className="py-20 px-4">
+        <Projects />
+      </section>
+
+      {/* Certifications section */}
+      <section id="certifications" className="py-20 px-4">
+        <Certifications />
+      </section>
+
+      {/* Contact / footer CTA */}
+      <section id="contact" className="py-20 px-4">
+        <Contact />
+      </section>
+
+      {/* Footer */}
+      <Footer />
     </div>
-  
   )
 }
 

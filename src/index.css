@@ -8,3 +8,7 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+/* Smooth out the SVG draw animation */
+.path-draw {
+  transition: stroke-dashoffset 0.2s linear;
+}
